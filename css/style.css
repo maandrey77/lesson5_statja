@@ -1,0 +1,151 @@
+/* &display=swap */
+
+@import "null.css";
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Quintessential-Regular";
+	src: url("../fonts/Quintessential-Regular.woff2") format("woff2"), url("../fonts/Quintessential-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "Quintessential-Regular";
+	font-weight: 400;
+	font-style: normal;
+}
+p {
+	text-indent: 30px;
+	display: block;
+	border: 1px dashed black;
+}
+h1 {
+	margin-left: 60px;
+	color: red;
+	font-size: 46px;
+}
+p {
+	margin-left: 70px;
+	color: gray;
+}
+.foto {
+	margin-left: 80px;
+}
+h2 {
+	margin: 20px 30px 50px 80px;
+	font-size: 38px;
+}
+.text {
+	margin-left: 100px;
+}
+.block {
+	display: block;
+	border: 1px dashed black;
+	/* Верхний */
+	/* margin-top: 50px; */
+	/* margin-top: -50px; */
+	/* Правый */
+	/* margin-right: 50px; */
+	/* Нижний */
+	/* margin-bottom: 50px; */
+	/* Левый */
+	/* margin-left: 50px; */
+
+	/* Универсальный параметр */
+	/* Анатомия */
+	/* margin: сверху справа снизу слева; */
+	/* Стрелка часов 12 3 6 9 */
+	margin: 20px 30px 50px 20px;
+
+	padding: 50px;
+
+	/*
+	margin: 0 0 50px 0;
+	или
+	margin-bottom: 50px;
+	*/
+
+	/* Одинаковые значения сверху/снизу слева/справа */
+	/* сверху/снизу 20px слева/справа 50px */
+	/* margin: 20px 50px; */
+
+	/* Одинаковые значения слева/справа */
+	/* сверху/снизу 20px слева/справа 50px */
+
+	/* сверху 20px снизу 40px слева/справа 50px */
+	/* margin: 20px 50px 40px; */
+
+	/* Все значения равны */
+	/* сверху/снизу слева/справа 50px */
+	/* margin: 50px; */
+
+	/* Указание % */
+	/* Процент от ширины родителя */
+	/* margin: 10% 40% 10% 5%; */
+
+	/* margin: 0px 0px 20px 0px; */
+}
+
+/* Строчный тег <SPAN> и т.п. */
+/* font-weight: 20px; */
+ul {
+	padding-left: 50px;
+	display: block;
+	border: 1px dashed black;
+}
+span {
+	font-size: 26px;
+	color: blue;
+}
+li {
+	padding-left: 40px;
+}
+.abzach {
+	display: block;
+	border: 1px solid black;
+}
+.lenta {
+	margin: 10px 10px 10px 400px;
+}
+.wrapper {
+	display: block;
+	border: 1px solid red;
+}
+header {
+	display: block;
+	border: 1px solid greenyellow;
+}
+footer {
+	display: block;
+	border: 1px solid gold;
+}
+.chec-picture {
+	margin: 0 0 0 100px;
+}
+.frilancer {
+	padding: 20px 0 0 100px;
+}
+.vtor {
+	margin: 100px 0px 0px 0px;
+}
